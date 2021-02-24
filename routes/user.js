@@ -20,7 +20,7 @@ router.post("/register",upload.none(), function(request, response) {
         error += 'Поле Имя обязательно для заполнения. ';
 
     if(email === "")
-        error += 'Поле E-Mail адрес для заполнения. ' ;
+        error += 'Поле E-Mail адрес обязательно для заполнения. ' ;
 
     if(password === "")
         error += 'Поле Пароль обязательно для заполнения.';
